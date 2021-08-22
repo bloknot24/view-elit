@@ -1,0 +1,43 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    background: var(--bodyBackg);
+    color: var(--bodyColor);
+}
+
+body, html {
+    height: 100%;
+}
+
+* {
+    -moz-transition: all 0.3s ease;
+    -webkit-transition-property: all;
+    -webkit-transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.upper {
+    text-transform: uppercase;
+}
+.center {
+    text-align: center;
+    margin: 0px auto;
+}
+.section__size {
+    width: 1140px;
+    margin: 0px auto;
+}
+.head-2 {
+    font-size: 1.875rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.h2__box-head {
+    text-align: center;
+    margin: 60px auto;
+    position: relative;
+}

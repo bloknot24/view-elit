@@ -1,0 +1,44 @@
+@font-face {
+  font-family: 'PTSans';
+  font-weight: 500;
+  src: url('../fonts/PTSans-Regular.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/PTSans-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/PTSans-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/PTSans-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/PTSans-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/PTSans-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+@font-face {
+  font-family: 'PTSans';
+  font-weight: 700;
+  src: url('../fonts/PTSans-Bold.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/PTSans-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/PTSans-Bold.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/PTSans-Bold.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/PTSans-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/PTSans-Bold.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+@font-face {
+  font-family: 'PTSans';
+  font-weight: 100;
+  src: url('../fonts/PTSans-Italic.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/PTSans-Italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/PTSans-Italic.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/PTSans-Italic.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/PTSans-Italic.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/PTSans-Italic.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+@font-face {
+  font-family: 'PTSans';
+  font-weight: 300;
+  src: url('../fonts/PTSans-BoldItalic.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/PTSans-BoldItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/PTSans-BoldItalic.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/PTSans-BoldItalic.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/PTSans-BoldItalic.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/PTSans-BoldItalic.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+body {
+  font-family: 'PTSans', Roboto, sans-serif;
+}
