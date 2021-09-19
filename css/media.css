@@ -73,6 +73,11 @@
         margin-top: 20px;
     }
 }
+@media screen and (max-width: 1095px) {
+    .menu__nav-list {
+        margin: 5px 0px 0px 0px;
+    }
+}
 @media screen and (max-width: 1044px) {
     .box__contacts-block-adress-list {
         margin-top: 0px;
@@ -157,7 +162,7 @@
     }
 }
 @media screen and (max-width: 750px) {
-    .menu__nav {
+    .menu__nav, .header__logo-text {
         display: none;
     }
 }

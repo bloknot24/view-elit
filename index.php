@@ -27,6 +27,10 @@
                 <a href="/">
                     <img src="img/header/logo.svg" alt="Логотип" class="img__logo">
                 </a>
+                <p class="header__logo-text">
+                    Стяжка<br>
+                    пола
+                </p>
                 <nav class="menu__nav">
                     <ul class="menu__nav-list upper">
                         <li class="menu__nav-list-item">
@@ -306,7 +310,10 @@
                         Итоговая стоимость:
                         <b><span class="price__box-calc-rendering-result-span">
                         <u>здесь появится результат</u></span></b>
-                        <b><span class="price__box-calc-rendering-result-span-ei"></span></b>
+                        <b><span class="price__box-calc-rendering-result-span-ei"></span>*</b>
+                    </div>
+                    <div class="price__box-calc-rendering">
+                        <p>* - <b>Итоговая цена</b> указана с учетом стройматериалов.</p>
                     </div>
                 </div>
             </div>
