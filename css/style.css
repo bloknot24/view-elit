@@ -423,11 +423,13 @@
     position: absolute;
     left: 10px;
     top: 238px;
+    z-index: 2;
 }
 .arrow-slider-right {
     position: absolute;
     right: 10px;
     top: 238px;
+    z-index: 2;
 }
 .arrow-slider-left:hover, .arrow-slider-right:hover {
     cursor: pointer;
@@ -713,4 +715,7 @@
 .designed__by-text:hover {
     color: var(--linkColor);
     cursor: pointer;
+}
+.button__mail {
+    margin: 10px 0px 0px 11px;
 }

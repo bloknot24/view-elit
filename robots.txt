@@ -1,0 +1,19 @@
+User-agent: *
+Allow: *js
+Allow: *css
+Disallow: /confidencial.php
+Disallow: /.htaccess
+
+User-agent: Yandex
+Allow: *js
+Allow: *css
+Disallow: /confidencial.php
+Disallow: /.htaccess
+
+User-agent: Googlebot
+Allow: *js
+Allow: *css
+Disallow: /confidencial.php
+Disallow: /.htaccess
+
+Sitemap: https://styazhka-elit.by/sitemap.xml

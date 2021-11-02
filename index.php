@@ -1,125 +1,8 @@
 <?php
     error_reporting(-1);
     include_once('../model/query.php');
+    include_once('header.php');
 ?>
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Стяжка пола</title>
-    <meta name="description" content="Это дискриптор сайта">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/media.css">
-    <link rel="stylesheet" href="css/animate.min.css">
-    <link rel="icon" href="img/header/icon.png">
-    <link rel="shortcut icon" href="img/header/icon.png">
-    <link rel="icon" href="img/header/favicon.svg" type="image/svg+xml">
-</head>
-<body>
-    <div class="ver_line1"></div>
-    <div class="ver_line2"></div>
-    <div class="ver_line3"></div>
-    <header id="header">
-        <div class="section__size">
-            <div class="header__box">
-                <a href="/">
-                    <img src="img/header/logo.svg" alt="Логотип" class="img__logo">
-                </a>
-                <p class="header__logo-text">
-                    Стяжка<br>
-                    пола
-                </p>
-                <nav class="menu__nav">
-                    <ul class="menu__nav-list upper">
-                        <li class="menu__nav-list-item">
-                            <a href="/" class="menu__nav-list-item-link">Главная</a>
-                        </li>
-                        <li class="menu__nav-list-item">
-                            <a href="#price" class="menu__nav-list-item-link">Цена</a>
-                        </li>
-                        <li class="menu__nav-list-item">
-                            <a href="#partfolio" class="menu__nav-list-item-link">Выполненные объекты</a>
-                        </li>
-                        <li class="menu__nav-list-item">
-                            <a href="#equipment" class="menu__nav-list-item-link">Оборудование</a>
-                        </li>
-                        <li class="menu__nav-list-item">
-                            <a href="#contacts" class="menu__nav-list-item-link">Контакты</a>
-                        </li>
-                    </ul>
-                </nav>
-
-                <!-- menu-mobile -->
-
-                <div class="menu__mobile">
-                    <span class="span__mobile"></span>
-                    <span class="span__mobile"></span>
-                    <span class="span__mobile"></span>
-                </div>
-                <div class="menu__mobile-list-block">
-                    <ul class="menu__mobile-list">
-                        <div class="menu__mobile-close">x</div>
-                        <li class="menu__mobile-list-item">
-                            <a href="/" class="menu__mobile-list-item-link">
-                                Главная
-                            </a>
-                        </li>
-                        <li class="menu__mobile-list-item">
-                            <a href="#price" class="menu__mobile-list-item-link">
-                                Цена
-                            </a>
-                        </li>
-                        <li class="menu__mobile-list-item">
-                            <a href="#partfolio" class="menu__mobile-list-item-link">
-                                Выполненные объекты
-                            </a>
-                        </li>
-                        <li class="menu__mobile-list-item">
-                            <a href="#equipment" class="menu__mobile-list-item-link">
-                                Оборудование
-                            </a>
-                        </li>
-                        <li class="menu__mobile-list-item">
-                            <a href="#contacts" class="menu__mobile-list-item-link">
-                                Контакты
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-
-                <!-- end-menu-mobile -->
-
-                <div class="tel__block">
-                    <div class="tel__box">
-                        <div>
-                            <a href="#" class="tel__box-link">
-                                <img src="img/header/icon-telegram.svg"
-                                class="tel__box-icon" alt="Telegram">
-                            </a>
-                        </div>
-                        <div>
-                            <a href="viber://chat?number=375291207671" class="tel__box-link">
-                                <img src="img/header/icon-viber.svg"
-                                class="tel__box-icon" alt="Viber">
-                            </a>
-                        </div>
-                        <div>
-                            <a href="tel:+375291207671" class="tel__box-number">
-                                +375291207671
-                            </a>
-                        </div>
-                    </div> <!--todo-->
-                    <div class="button__call upper">
-                        <a href="#form" class="button__call-link">
-                            Заказать звонок
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
     <div class="hr__block"></div>
     <section id="first">
         <div class="section__size">
@@ -345,27 +228,22 @@
                     <div class="box__slider-element-block">
                         <div class="box__slider-element-img-block">
                             <div class="box__slider-element-img">
-                                <img src="img/partfolio/<?=$slider['img_slider_one']?>"
-                                class="wow fadeInLeft" data-wow-delay="0.5s" alt="Фото">
+                                <img src="img/partfolio/<?=$slider['img_slider_one']?>" alt="Фото">
                             </div>
                             <div class="box__slider-element-img">
-                                <img src="img/partfolio/<?=$slider['img_slider_two']?>"
-                                class="wow fadeInRight" data-wow-delay="0.5s" alt="Фото">
+                                <img src="img/partfolio/<?=$slider['img_slider_two']?>" alt="Фото">
                             </div>
                         </div>
                         <div class="box__slider-element-img-block">
                             <div class="box__slider-element-img">
-                                <img src="img/partfolio/<?=$slider['img_slider_three']?>"
-                                class="wow fadeInLeft" data-wow-delay="0.5s" alt="Фото">
+                                <img src="img/partfolio/<?=$slider['img_slider_three']?>" alt="Фото">
                             </div>
                             <div class="box__slider-element-img">
-                                <img src="img/partfolio/<?=$slider['img_slider_four']?>"
-                                class="wow fadeInRight" data-wow-delay="0.5s" alt="Фото">
+                                <img src="img/partfolio/<?=$slider['img_slider_four']?>" alt="Фото">
                             </div>
                         </div>
                         <div class="box__slider-element-img-back">
-                            <img src="img/partfolio/<?=$slider['img_slider_five']?>"
-                            class="wow fadeInDown" data-wow-delay="0.5s" alt="Фото">
+                            <img src="img/partfolio/<?=$slider['img_slider_five']?>" alt="Фото">
                         </div>
                     </div>
                     <p class="box__slider-element-block-description">
@@ -420,9 +298,9 @@
             </div>
             <div class="box__slider-equipment">
                 <img src="img/partfolio/arrow-slider-left.svg" alt="Стрелка"
-                class="arrow-slider-equipment-left wow fadeInLeft" data-wow-delay="1s">
+                class="arrow-slider-equipment-left wow fadeInRight" data-wow-delay="1.3s">
                 <img src="img/partfolio/arrow-slider-right.svg" alt="Стрелка"
-                class="arrow-slider-equipment-right wow fadeInRight" data-wow-delay="1s">
+                class="arrow-slider-equipment-right wow fadeInRight" data-wow-delay="1.3s">
                 <?php
                     $equipments = viewSliderEquipment();
 
@@ -431,13 +309,11 @@
                 <div class="box__slider-element-equipment">
                     <div class="box__slider-element-equipment-block">
                         <img src="img/equipment/<?=$equipment['img_slider_equipment']?>" alt="Фото"
-                        class="box__slider-element-equipment-block-img wow fadeInRight" data-wow-delay="0.5s">
-                        <h4 class="box__slider-element-equipment-block-head
-                        wow fadeInLeft" data-wow-delay="0.5s">
+                        class="box__slider-element-equipment-block-img">
+                        <h4 class="box__slider-element-equipment-block-head">
                             <?=$equipment['name_equipment']?>
                         </h4>
-                        <p class="box__slider-element-equipment-block-text
-                        wow fadeInLeft" data-wow-delay="0.5s">
+                        <p class="box__slider-element-equipment-block-text">
                             <?=$equipment['description_equipment']?>
                         </p>
                     </div>
@@ -515,59 +391,5 @@
         </div>
     </section>
     <div class="hr__block"></div>
-    <footer id="footer">
-        <div class="section__size">
-            <div class="footer__box">
-                <a href="/">
-                    <img src="img/header/logo.svg" alt="Логотип" class="img__logo">
-                </a>
-                <div class="footer__box-confidencial">
-                    <a href="#" class="footer__box-confidencial-link">Политика конфиденциальности</a>
-                    <p class="footer__box-confidencial-text">
-                        2021 © Все права защищены
-                    </p>
-                </div>
-                <div class="designed__by">
-                    <p class="designed__by-text">
-                        Designed by<br>
-                        @alex_ignatovich
-                    </p>
-                </div>
-                <div class="tel__block tel-block2">
-                    <div class="tel__box">
-                        <div>
-                            <a href="#" class="tel__box-link">
-                                <img src="img/header/icon-telegram.svg"
-                                class="tel__box-icon" alt="Telegram">
-                            </a>
-                        </div>
-                        <div>
-                            <a href="#" class="tel__box-link">
-                                <img src="img/header/icon-viber.svg"
-                                class="tel__box-icon" alt="Viber">
-                            </a>
-                        </div>
-                        <div>
-                            <a href="tel:+375291207671" class="tel__box-number">
-                                +375291207671
-                            </a>
-                        </div>
-                    </div>
-                    <div class="button__call upper">
-                        <a href="#form" class="button__call-link">
-                            Заказать звонок
-                        </a>
-                    </div>
-            </div>
-        </div>
-    </footer>
 
-
-    <script src="js/script.js"></script>
-    <script defer src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script>
-    <script src="js/wow.min.js"></script>
-    <script>
-        new WOW().init();
-    </script>
-</body>
-</html>
+    <?php include_once('footer.php'); ?>
