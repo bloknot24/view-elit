@@ -5,7 +5,7 @@
                     <img src="img/header/logo.svg" alt="Логотип" class="img__logo">
                 </a>
                 <div class="footer__box-confidencial">
-                    <a href="#" class="footer__box-confidencial-link">Политика конфиденциальности</a>
+                    <a href="/confidencial.php" class="footer__box-confidencial-link">Политика конфиденциальности</a>
                     <p class="footer__box-confidencial-text">
                         2021 © Все права защищены
                     </p>
@@ -44,6 +44,10 @@
             </div>
         </div>
     </footer>
+    <div class="arrow__up" hidden>
+        <img src="img/up.svg" class="arrow__up-img" alt="Стрелка">
+    </div>
+
     <script src="js/script.js"></script>
     <script src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script>
     <script src="js/wow.min.js"></script>

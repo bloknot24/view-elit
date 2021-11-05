@@ -3,8 +3,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Стяжка пола</title>
-    <meta name="description" content="Заказать идеально pовный пол с гарантией на 5 лет в Минске и Минской области.">
+    <title><?=$title?></title>
+    <meta name="description" content="<?=$description?>">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
@@ -33,16 +33,16 @@
                             <a href="/" class="menu__nav-list-item-link">Главная</a>
                         </li>
                         <li class="menu__nav-list-item">
-                            <a href="#price" class="menu__nav-list-item-link">Цена</a>
+                            <a href="/#price" class="menu__nav-list-item-link">Цена</a>
                         </li>
                         <li class="menu__nav-list-item">
-                            <a href="#partfolio" class="menu__nav-list-item-link">Выполненные объекты</a>
+                            <a href="/#partfolio" class="menu__nav-list-item-link">Выполненные объекты</a>
                         </li>
                         <li class="menu__nav-list-item">
-                            <a href="#equipment" class="menu__nav-list-item-link">Оборудование</a>
+                            <a href="/#equipment" class="menu__nav-list-item-link">Оборудование</a>
                         </li>
                         <li class="menu__nav-list-item">
-                            <a href="#contacts" class="menu__nav-list-item-link">Контакты</a>
+                            <a href="/#contacts" class="menu__nav-list-item-link">Контакты</a>
                         </li>
                     </ul>
                 </nav>
@@ -63,22 +63,22 @@
                             </a>
                         </li>
                         <li class="menu__mobile-list-item">
-                            <a href="#price" class="menu__mobile-list-item-link">
+                            <a href="/#price" class="menu__mobile-list-item-link">
                                 Цена
                             </a>
                         </li>
                         <li class="menu__mobile-list-item">
-                            <a href="#partfolio" class="menu__mobile-list-item-link">
+                            <a href="/#partfolio" class="menu__mobile-list-item-link">
                                 Выполненные объекты
                             </a>
                         </li>
                         <li class="menu__mobile-list-item">
-                            <a href="#equipment" class="menu__mobile-list-item-link">
+                            <a href="/#equipment" class="menu__mobile-list-item-link">
                                 Оборудование
                             </a>
                         </li>
                         <li class="menu__mobile-list-item">
-                            <a href="#contacts" class="menu__mobile-list-item-link">
+                            <a href="/#contacts" class="menu__mobile-list-item-link">
                                 Контакты
                             </a>
                         </li>

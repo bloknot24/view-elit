@@ -1,6 +1,8 @@
 <?php
     error_reporting(-1);
     include_once('../model/query.php');
+    $title = 'Стяжка пола';
+    $description = 'Заказать идеально pовный пол с гарантией на 5 лет в Минске и Минской области.';
     include_once('header.php');
 ?>
     <div class="hr__block"></div>
@@ -198,6 +200,7 @@
                     <div class="price__box-calc-rendering">
                         <p>* - <b>Итоговая цена</b> указана с учетом стройматериалов.</p>
                     </div>
+                    <script src="js/calculator.js"></script>
                 </div>
             </div>
             <div class="price__box-btn">
@@ -252,6 +255,7 @@
                 </div>
             <? endforeach; ?>
             </div>
+            <script src="js/partfolio.js"></script>
             <!-- <div class="partfolio__box-btn">
                 <a href="#" class="price__box-btn-link upper">Смотреть больше работ</a>
             </div> -->
@@ -285,6 +289,7 @@
                 </div>
                 <? endforeach; ?>
             </div>
+            <script src="js/questions.js"></script>
         </div>
     </section>
     <div class="hr__block"></div>
@@ -320,6 +325,7 @@
                 </div>
                 <? endforeach; ?>
             </div>
+            <script src="js/equipment.js"></script>
         </div>
     </section>
     <div class="hr__block"></div>

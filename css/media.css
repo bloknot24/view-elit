@@ -24,6 +24,10 @@
     .price__box {
         justify-content: space-around;
     }
+    .box__confidencial {
+        width: 90%;
+        margin-left: 15px;
+    }
 }
 @media screen and (max-width: 1150px) {
     .img__logo, .first__box-head {
