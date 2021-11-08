@@ -45,9 +45,7 @@
         </div>
     </footer>
     <div class="arrow__up" hidden>
-        <object type="image/svg+xml" data="img/up.svg" class="arrow__up-img">
-            Ваш браузер не поддерживает SVG
-        </object>
+        <img src="img/up.png" class="arrow__up-img" alt="Стрелка">
     </div>
 
 
