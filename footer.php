@@ -45,8 +45,11 @@
         </div>
     </footer>
     <div class="arrow__up" hidden>
-        <img src="img/up.svg" class="arrow__up-img" alt="Стрелка">
+        <object type="image/svg+xml" data="img/up.svg" class="arrow__up-img">
+            Ваш браузер не поддерживает SVG
+        </object>
     </div>
+
 
     <script src="js/script.js"></script>
     <script src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script>

@@ -231,22 +231,32 @@
                     <div class="box__slider-element-block">
                         <div class="box__slider-element-img-block">
                             <div class="box__slider-element-img">
-                                <img src="img/partfolio/<?=$slider['img_slider_one']?>" alt="Фото">
+                                <object type="image/svg+xml" data="img/partfolio/<?=$slider['img_slider_one']?>">
+                                    Ваш браузер не поддерживает SVG
+                                </object>
                             </div>
                             <div class="box__slider-element-img">
-                                <img src="img/partfolio/<?=$slider['img_slider_two']?>" alt="Фото">
+                                <object type="image/svg+xml" data="img/partfolio/<?=$slider['img_slider_two']?>">
+                                    Ваш браузер не поддерживает SVG
+                                </object>
                             </div>
                         </div>
                         <div class="box__slider-element-img-block">
                             <div class="box__slider-element-img">
-                                <img src="img/partfolio/<?=$slider['img_slider_three']?>" alt="Фото">
+                                <object type="image/svg+xml" data="img/partfolio/<?=$slider['img_slider_three']?>">
+                                    Ваш браузер не поддерживает SVG
+                                </object>
                             </div>
                             <div class="box__slider-element-img">
-                                <img src="img/partfolio/<?=$slider['img_slider_four']?>" alt="Фото">
+                                <object type="image/svg+xml" data="img/partfolio/<?=$slider['img_slider_four']?>">
+                                    Ваш браузер не поддерживает SVG
+                                </object>
                             </div>
                         </div>
                         <div class="box__slider-element-img-back">
-                            <img src="img/partfolio/<?=$slider['img_slider_five']?>" alt="Фото">
+                            <object type="image/svg+xml" data="img/partfolio/<?=$slider['img_slider_five']?>">
+                                Ваш браузер не поддерживает SVG
+                            </object>
                         </div>
                     </div>
                     <p class="box__slider-element-block-description">
@@ -313,8 +323,10 @@
                 ?>
                 <div class="box__slider-element-equipment">
                     <div class="box__slider-element-equipment-block">
-                        <img src="img/equipment/<?=$equipment['img_slider_equipment']?>" alt="Фото"
+                        <object type="image/svg+xml" data="img/equipment/<?=$equipment['img_slider_equipment']?>"
                         class="box__slider-element-equipment-block-img">
+                            Ваш браузер не поддерживает SVG
+                        </object>
                         <h4 class="box__slider-element-equipment-block-head">
                             <?=$equipment['name_equipment']?>
                         </h4>
