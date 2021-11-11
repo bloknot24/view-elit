@@ -11,10 +11,12 @@
                     </p>
                 </div>
                 <div class="designed__by">
-                    <p class="designed__by-text">
-                        Designed by<br>
-                        @alex_ignatovich
-                    </p>
+                        <p class="designed__by-text">
+                            <a href="https://www.instagram.com/alex_ignatovich/" class="designed__by-text-link">
+                                Designed by<br>
+                                @alex_ignatovich
+                            </a>
+                        </p>
                 </div>
                 <div class="tel__block tel-block2">
                     <div class="tel__box">
@@ -25,7 +27,7 @@
                             </a>
                         </div>
                         <div>
-                            <a href="https://www.instagram.com/alex_ignatovich/" class="tel__box-link">
+                            <a href="viber://chat?number=375291207671" class="tel__box-link">
                                 <img src="img/header/icon-viber.svg"
                                 class="tel__box-icon" alt="Viber">
                             </a>

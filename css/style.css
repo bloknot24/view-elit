@@ -754,3 +754,11 @@
     list-style-type: none;
     margin: 10px 0px 10px 20px;
 }
+.designed__by-text-link {
+    color: var(--bodyColor);
+    text-decoration: none;
+}
+.designed__by-text-link:hover {
+    color: var(--linkColor);
+    cursor: pointer;
+}
