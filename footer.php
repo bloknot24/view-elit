@@ -25,7 +25,7 @@
                             </a>
                         </div>
                         <div>
-                            <a href="#" class="tel__box-link">
+                            <a href="https://www.instagram.com/alex_ignatovich/" class="tel__box-link">
                                 <img src="img/header/icon-viber.svg"
                                 class="tel__box-icon" alt="Viber">
                             </a>
@@ -50,7 +50,8 @@
 
 
     <script src="js/script.js"></script>
-    <script src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script>
+    <script src="js/all.js"></script>
+    <!-- fontawesome -->
     <script src="js/wow.min.js"></script>
     <script>
         new WOW().init();

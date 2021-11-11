@@ -26,11 +26,11 @@
                 </div>
                 <div class="first__box-img">
                     <img src="img/first/img-floor.svg"
-                    class="img-floor wow fadeInDown" data-wow-delay="2s" alt="Пол">
+                    class="img-floor wow fadeInDown" data-wow-delay="1.2s" alt="Пол">
                     <img src="img/first/img-layer.svg"
-                    class="img-layer wow fadeInUp" data-wow-delay="2s" alt="Слой">
+                    class="img-layer wow fadeInUp" data-wow-delay="1.2s" alt="Слой">
                     <img src="img/first/img-trowel.svg"
-                    class="img-trowel wow bounceInLeft" data-wow-delay="3s"
+                    class="img-trowel wow bounceInLeft" data-wow-delay="2.0s"
                     alt="Затирочная машина">
                     <div class="first__box-img-block">
                         <img src="img/first/img-main.svg" alt="Общая картинка">
@@ -38,7 +38,7 @@
                 </div>
             </div>
             <div class="advantage__box">
-                <div class="advantage__box-block wow pulse" data-wow-delay="3.5s">
+                <div class="advantage__box-block wow pulse" data-wow-delay="2.5s">
                     <img src="img/advantage/icon-floor.svg" alt="Технология"
                     class="advantage__box-block-img-floor">
                     <p class="advantage__box-block-text">
@@ -46,7 +46,7 @@
                         механизированной стяжки
                     </p>
                 </div>
-                <div class="advantage__box-block wow pulse" data-wow-delay="3.7s">
+                <div class="advantage__box-block wow pulse" data-wow-delay="2.7s">
                     <img src="img/advantage/icon-warranty.svg" alt="Гарантия"
                     class="advantage__box-block-img-warranty">
                     <p class="advantage__box-block-text">
@@ -55,7 +55,7 @@
                         жилые - 5 лет
                     </p>
                 </div>
-                <div class="advantage__box-block wow pulse" data-wow-delay="3.8s">
+                <div class="advantage__box-block wow pulse" data-wow-delay="2.8s">
                     <img src="img/advantage/icon-neumatic-blower.svg" alt="Оборудование"
                     class="advantage__box-block-img-blower">
                     <p class="advantage__box-block-text">
@@ -63,7 +63,7 @@
                         и технология стяжки
                     </p>
                 </div>
-                <div class="advantage__box-block wow pulse" data-wow-delay="3.9s">
+                <div class="advantage__box-block wow pulse" data-wow-delay="2.9s">
                     <img src="img/advantage/icon-experience.svg" alt="Опыт"
                     class="advantage__box-block-img-experience">
                     <p class="advantage__box-block-text">
@@ -84,7 +84,7 @@
             </div>
             <div class="order__box-list">
                 <div class="order__box-list-item">
-                    <div class="order__box-list-item-element wow pulse" data-wow-delay="2s">
+                    <div class="order__box-list-item-element wow pulse" data-wow-delay="1.2s">
                         <img src="img/order/contract.svg"
                         alt="Договор" class="order__box-block-element-img">
                         <div class="order__box-block-element-block">
@@ -98,7 +98,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="order__box-list-item-element wow pulse" data-wow-delay="2.5s">
+                    <div class="order__box-list-item-element wow pulse" data-wow-delay="1.7s">
                         <img src="img/order/preparatory.svg"
                         alt="Договор" class="order__box-block-element-img">
                         <div class="order__box-block-element-block">
@@ -114,7 +114,7 @@
                     </div>
                 </div>
                 <div class="order__box-list-item">
-                    <div class="order__box-list-item-element wow pulse" data-wow-delay="2s">
+                    <div class="order__box-list-item-element wow pulse" data-wow-delay="1.2s">
                         <img src="img/order/screed.svg"
                         alt="Стяжка" class="order__box-block-element-img">
                         <div class="order__box-block-element-block">
@@ -128,7 +128,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="order__box-list-item-element wow pulse" data-wow-delay="2.5s">
+                    <div class="order__box-list-item-element wow pulse" data-wow-delay="1.7s">
                         <img src="img/order/order.svg"
                         alt="Результат" class="order__box-block-element-img">
                         <div class="order__box-block-element-block">
@@ -180,7 +180,7 @@
                     <div class="price__box-calc-block">
                         <img src="img/price/icon-calc.svg"
                         alt="Калькулятор" class="price__box-calc-block-img
-                        wow bounce" data-wow-delay="1s">
+                        wow bounce" data-wow-delay="2s">
                         <p class="price__box-calc-block-text">
                             Тем не менее мы прелагаем<br>
                             рассчитать примерную стоимость:
@@ -219,9 +219,9 @@
             </div>
             <div class="box__slider">
                 <img src="img/partfolio/arrow-slider-left.svg" alt="Стрелка"
-                class="arrow-slider-left wow fadeInLeft" data-wow-delay="1.3s">
+                class="arrow-slider-left wow fadeInLeft" data-wow-delay="0.5s">
                 <img src="img/partfolio/arrow-slider-right.svg" alt="Стрелка"
-                class="arrow-slider-right wow fadeInRight" data-wow-delay="1.3s">
+                class="arrow-slider-right wow fadeInRight" data-wow-delay="0.5s">
                 <?php
                     $sliders = viewSliderPartfolio();
 
@@ -286,7 +286,7 @@
 
                     foreach($questions as $question) :
                 ?>
-                <div class="box__questions-block wow zoomIn" data-wow-delay="1s">
+                <div class="box__questions-block wow zoomIn" data-wow-delay="0.5s">
                     <div class="box__questions-block-head-line" data="<?=$question['id_tab']?>">
                         <h4 class="box__questions-block-head">
                             <?=$question['question_tab']?>
@@ -313,9 +313,9 @@
             </div>
             <div class="box__slider-equipment">
                 <img src="img/partfolio/arrow-slider-left.svg" alt="Стрелка"
-                class="arrow-slider-equipment-left wow fadeInRight" data-wow-delay="1.3s">
+                class="arrow-slider-equipment-left wow fadeInRight" data-wow-delay="0.5s">
                 <img src="img/partfolio/arrow-slider-right.svg" alt="Стрелка"
-                class="arrow-slider-equipment-right wow fadeInRight" data-wow-delay="1.3s">
+                class="arrow-slider-equipment-right wow fadeInRight" data-wow-delay="0.5s">
                 <?php
                     $equipments = viewSliderEquipment();
 
