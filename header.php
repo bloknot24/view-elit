@@ -14,6 +14,10 @@
     <link rel="icon" href="img/header/favicon.svg" type="image/svg+xml">
 </head>
 <body>
+    <div class="preloader">
+        <img src="img/header/logo.svg" alt="Лого" class="preloader__image">
+    </div>
+    <script src="js/preloader.js"></script>
     <div class="ver_line1"></div>
     <div class="ver_line2"></div>
     <div class="ver_line3"></div>

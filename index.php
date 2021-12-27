@@ -15,7 +15,7 @@
                         за 1 день с гарантией на 5 лет.
                     </h1>
                     <h1 class="first__box-head-text-mobile upper">
-                        Идеально pовный пол
+                        Идеальный пол
                         за 1 день с гарантией на 5 лет.
                     </h1>
                     <div class="first__box-btn">
@@ -59,15 +59,16 @@
                     <img src="img/advantage/icon-neumatic-blower.svg" alt="Оборудование"
                     class="advantage__box-block-img-blower">
                     <p class="advantage__box-block-text">
-                        <strong>Немецкое</strong> оборудование<br>
-                        и технология стяжки
+                        <strong>Немецкое</strong> современное<br>
+                        оборудование
                     </p>
                 </div>
                 <div class="advantage__box-block wow pulse" data-wow-delay="2.9s">
                     <img src="img/advantage/icon-experience.svg" alt="Опыт"
                     class="advantage__box-block-img-experience">
                     <p class="advantage__box-block-text">
-                        Опыт работы > <b>12 лет</b>
+                        Профессиональный опыт<br>
+                        работы > <b>12 лет</b>
                     </p>
                 </div>
             </div>
@@ -168,11 +169,16 @@
                             &#8227; площадь работ;
                         </li>
                         <li class="price__box-conditions-list-item">
-                            &#8227; стоимость стройматериалов;
+                            &#8227; стоимость стройматериалов<br>
+                            (используются только качественные);
                         </li>
                         <li class="price__box-conditions-list-item">
                             &#8227; расстояние до объекта, если<br>
-                            свыше 50 км - цена выше.
+                            свыше 50 км - цена выше.<br>
+                        </li>
+                        <li class="price__box-conditions-list-item">
+                            &#8227; работаем только в Минске<br>
+                            и Минской области.
                         </li>
                     </ul>
                 </div>
@@ -216,6 +222,7 @@
                     Выполненные объекты.
                 </h2>
                 <div class="uderline__partfolio-head"></div>
+                <p class="uderline__partfolio-head-description">Выполняем стяжку любой сложности.</p>
             </div>
             <div class="box__slider">
                 <img src="img/partfolio/arrow-slider-left.svg" alt="Стрелка"
@@ -310,6 +317,7 @@
                     Наше оборудование.
                 </h2>
                 <div class="uderline__equipment-head"></div>
+                <p class="uderline__partfolio-head-description">Качество наших работ выполняется на высшем уровне.</p>
             </div>
             <div class="box__slider-equipment">
                 <img src="img/partfolio/arrow-slider-left.svg" alt="Стрелка"

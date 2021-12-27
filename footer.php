@@ -47,19 +47,17 @@
         </div>
     </footer>
     <div class="arrow__up" hidden>
-        <img src="img/up.png" class="arrow__up-img" alt="Стрелка">
+        <img src="img/up.svg" class="arrow__up-img" alt="Стрелка">
     </div>
-
-
     <script src="js/script.js"></script>
-    <script src="js/all.js"></script>
     <!-- fontawesome -->
+    <script src="js/all.js"></script>
+    <!-- wow -->
     <script src="js/wow.min.js"></script>
     <script>
         new WOW().init();
     </script>
     <!-- Yandex.Metrika counter -->
-
     <script type="text/javascript" >
         (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
         m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
@@ -78,7 +76,6 @@
         </div>
     </noscript>
     <!-- /Yandex.Metrika counter -->
-
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -86,11 +83,9 @@
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','GTM-TCG7RXC');</script>
     <!-- End Google Tag Manager -->
-
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TCG7RXC"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
-
 </body>
 </html>
