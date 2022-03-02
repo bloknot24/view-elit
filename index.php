@@ -204,7 +204,7 @@
                         <b><span class="price__box-calc-rendering-result-span-ei"></span>*</b>
                     </div>
                     <div class="price__box-calc-rendering">
-                        <p>* - <b>Итоговая цена</b> указана с учетом стройматериалов.</p>
+                        <p>* - <b>Итоговая цена</b> "под ключ".</p>
                     </div>
                     <script src="js/calculator.js"></script>
                 </div>

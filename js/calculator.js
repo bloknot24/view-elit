@@ -11,6 +11,6 @@ calcInput.oninput = function() {
     if(calcSpan.textContent == 'NaN') {
         calcSpan.textContent = 'Вы ввели не цифру.';
     } else if(calcSpan.textContent !== 'string') {
-        calcSpan.textContent = calcInput.value * 16 + spanEi;
+        calcSpan.textContent = calcInput.value * 18 + spanEi;
     }
 };
