@@ -7,7 +7,7 @@ let calcInput = document.querySelector('.price__box-calc-rendering-input'),
 spanEi = ' руб/м2';
 
 calcInput.oninput = function() {
-    calcSpan.textContent = calcInput.value * 7.5;
+    calcSpan.textContent = calcInput.value * 8.5;
     if(calcSpan.textContent == 'NaN') {
         calcSpan.textContent = 'Вы ввели не цифру.';
     } else if(calcSpan.textContent !== 'string') {
