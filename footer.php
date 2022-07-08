@@ -33,10 +33,15 @@
                             </a>
                         </div>
                         <div>
-                            <a href="tel:+375291207671" class="tel__box-number">
-                                +375291207671
+                            <a href="tel:+375296452709" class="tel__box-number">
+                                +375296452709
                             </a>
                         </div>
+                    </div>
+                    <div style="margin-left: 25px;">
+                        <a href="tel:+375291207671" class="tel__box-number">
+                            +375291207671
+                        </a>
                     </div>
                     <div class="button__mail">
                         <a href="mailto:mail@styazhka-elit.by" class="tel__box-number">
